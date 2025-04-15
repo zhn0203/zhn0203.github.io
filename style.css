@@ -1,0 +1,27 @@
+body {font-family:標楷體, 微軟正黑體}
+
+h1 {font-size:30px}、{font-size:200%}、{font-size:x-large}
+
+p {font-style:italic}
+
+h3 {font-variant:small-caps}
+
+h1 {font-weight:bold}
+
+h1 {line-height:20px}
+
+p {font:12px/14px 標楷體}
+
+p {text-indent:20px}
+
+p {text-decoration:underline}
+
+p {letter-spacing:3px}
+
+p {word-spacing:3px}
+
+h1 {text-align:center;}
+
+<h1 style="text-transform:uppercase">Hello World!</h1>
+
+h1 {text-shadow:12px 8px 5px orange}
