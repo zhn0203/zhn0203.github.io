@@ -4,10 +4,12 @@ body {
      margin-top 100px;
      font-family: "Times New Roman", serif;
 }
+
 .orange-shadow {
      color: black;
      text-shadow: 12px 8px 5px orange;
      }
+
 .gray-silver-shadow {
      color: black;
      text-shadow: 12px 8px 5px gray, 12px 8px 5px silver;
