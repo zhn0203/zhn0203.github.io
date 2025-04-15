@@ -1,15 +1,14 @@
 body {
-     shadow-text-orange {
-      fort-size: 480px;
-      fort-weight: bold;
-      color:black;
-      text-shadow:
-         12px 8px 5 orange,
-         12px 8px 5 gray,
-         12px 8px 5 silver;
-       margin-bottom: 30px;
+     background-color: white;
+     text-align: center;
+     margin-top 100px;
+     font-family: "Times New Roman", serif;
+}
+.orange-shadow {
+     color: black;
+     text-shadow: 12px 8px 5px orange;
      }
-     shadow-text-black {
-      color: black;
-      text-shadow: 12px 8px 5px gray, 12px 8px 5px silver;
-     }
+.gray-silver-shadow {
+     color: black;
+     text-shadow: 12px 8px 5px gray, 12px 8px 5px silver;
+}
