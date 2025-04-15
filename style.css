@@ -1,13 +1,32 @@
-<!doctype html>
-<html>
-   <head>
-
-{font-size:30px}
-{font-size:200%}
-{font-size:x-large}
-
-{font-variant:small-caps}
-
-{line-height:20px}
-<h1 style="text-transform:uppercase">Hello World!</h1>
- {text-shadow:12px 8px 5px orange}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>多重文字陰影效果</title>
+  <style>
+     shadow-text-orange {
+      fort-size: 480px;
+      fort-weight: bold;
+      color:black;
+      text-shadow:
+         12px 8px 5 orange,
+         12px 8px 5 gray,
+         12px 8px 5 silver;
+       margin-bottom: 30px;
+     }
+     shadow-text-black {
+      fort-size: 200px;
+      fort-weight: bold;
+      color:black;
+      text-shadow:
+         12px 8px 5 black,
+         12px 8px 5 gray,
+         12px 8px 5 silver;
+     }
+   </style>
+</head>
+<body>
+ <div ciass="shadow-text-orange">Hello World!</div>
+ <div ciass="shadow-text-orange">Hello World!</div>
+</body>
+</body>
