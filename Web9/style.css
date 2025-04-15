@@ -12,5 +12,5 @@ body {
 
 .gray-silver-shadow {
     color: black;
-    text-shadow: 12px 8px 5px gray, 12px 8px 5px silver;
+    text-shadow: 12px 8px 5px gray, 0px 0px 0px silver;
 }
