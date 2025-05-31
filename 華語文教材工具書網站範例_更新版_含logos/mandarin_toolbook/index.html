@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>華語文教材製作工具書</title>
+  <style>
+    body {
+      font-family: "微軟正黑體", sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      font-size: 1.2em;
+      color: #34495e;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+      padding: 0 10%;
+    }
+    .gallery a {
+      text-decoration: none;
+      transition: transform 0.3s;
+      display: block;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .gallery a:hover {
+      transform: scale(1.05);
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .caption {
+      margin-top: 10px;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>華語文教材製作工具書</h1>
+  <p>以下是一些實用的教材製作網站，點擊圖片即可前往：</p>
+
+  <div class="gallery">
+    <a href="https://www.google.com" target="_blank">
+      <img src="images/google.png" alt="Google">
+      <div class="caption">Google</div>
+    </a>
+
+    <a href="https://www.canva.com" target="_blank">
+      <img src="images/canva.png" alt="Canva">
+      <div class="caption">Canva 設計工具</div>
+    </a>
+
+    <a href="https://pixabay.com" target="_blank">
+      <img src="images/pixabay.png" alt="Pixabay">
+      <div class="caption">Pixabay 圖庫</div>
+    </a>
+  
+    <a href="https://chat.openai.com" target="_blank">
+      <img src="images/chatgptc.png" alt="ChatGPT 教學助理">
+      <div class="caption">ChatGPT 教學助理</div>
+    </a>
+
+    <a href="https://www.youtube.com" target="_blank">
+      <img src="images/youtube.png" alt="YouTube 教學影片">
+      <div class="caption">YouTube 教學影片</div>
+    </a>
+  </div>
+
+</body>
+</html>
