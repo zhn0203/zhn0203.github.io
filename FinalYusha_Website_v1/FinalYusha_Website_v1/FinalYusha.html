@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>FinalYusha 學術搜尋簡報系統</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>FinalYusha 學術搜尋簡報系統</h1>
+
+    <section id="search">
+        <h2>搜尋整合</h2>
+        <input type="text" id="searchInput" placeholder="輸入關鍵字">
+        <button onclick="searchAll()">搜尋</button>
+        <div id="results"></div>
+    </section>
+
+    <section id="presentation">
+        <h2>簡報內容</h2>
+        <button onclick="addSlide()">新增投影片</button>
+        <div id="slidesContainer"></div>
+        <button onclick="generateHTML()">產出 FinalYusha.html</button>
+        <a id="downloadLink" style="display:none;">下載簡報</a>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
